@@ -1,0 +1,135 @@
+{
+  "id": "2501542",
+  "name": "Dior",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "584235",
+      "name": "下箭头",
+      "font_class": "iconfontarrows1",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "1984632",
+      "name": "电话",
+      "font_class": "dianhua",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "9559086",
+      "name": "定位",
+      "font_class": "ziyuan",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    },
+    {
+      "icon_id": "3216512",
+      "name": "购物袋",
+      "font_class": "gouwudai1",
+      "unicode": "e666",
+      "unicode_decimal": 58982
+    },
+    {
+      "icon_id": "551518",
+      "name": "短信",
+      "font_class": "message_full",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "573575",
+      "name": "暂停",
+      "font_class": "zanting",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    },
+    {
+      "icon_id": "886908",
+      "name": "三角形",
+      "font_class": "sanjiaoxing",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    },
+    {
+      "icon_id": "2075260",
+      "name": "支付宝",
+      "font_class": "zhifubao",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "2486582",
+      "name": "短信",
+      "font_class": "duanxin",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "5649815",
+      "name": "放大镜",
+      "font_class": "fangdajing",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "5876884",
+      "name": "箭头",
+      "font_class": "biaoqing",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "6556877",
+      "name": "微博",
+      "font_class": "weibo",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "7708033",
+      "name": "上箭头",
+      "font_class": "shangjiantou",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "9148956",
+      "name": "箭头",
+      "font_class": "weimingmingwenjianjia_jiantou",
+      "unicode": "e637",
+      "unicode_decimal": 58935
+    },
+    {
+      "icon_id": "9512710",
+      "name": "微信",
+      "font_class": "wechat-fill",
+      "unicode": "e645",
+      "unicode_decimal": 58949
+    },
+    {
+      "icon_id": "12344791",
+      "name": "爱心",
+      "font_class": "aixin",
+      "unicode": "e68d",
+      "unicode_decimal": 59021
+    },
+    {
+      "icon_id": "15779655",
+      "name": "个人中心-2",
+      "font_class": "gerenzhongxin-2",
+      "unicode": "e6fe",
+      "unicode_decimal": 59134
+    },
+    {
+      "icon_id": "18465122",
+      "name": "购物袋",
+      "font_class": "gouwudai",
+      "unicode": "e635",
+      "unicode_decimal": 58933
+    }
+  ]
+}

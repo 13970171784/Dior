@@ -1,0 +1,1 @@
+b,body,dd,div,dl,dt,em,form,h1,h2,h3,h4,h5,h6,i,input,li,ol,p,select,span,strong,u,ul{padding:0;margin:0;outline:0}body{font-size:12px;font-family:"微软雅黑"}img{vertical-align:top}input{outline:0}a{text-decoration:none;color:#333}li,ol,ul li{list-style:none}.clear::after{content:"";overflow:hidden;display:block;height:0;font-size:0;clear:both;visibility:hidden}

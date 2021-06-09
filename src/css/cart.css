@@ -1,0 +1,392 @@
+body{
+    overflow-x: hidden;
+}
+.box{
+    width: 100%;
+}
+main{
+    width: 980px;
+    margin: 0 auto;
+}
+header{
+    border-bottom: 1px solid #e5e5e5;
+}
+header main{
+    height: 115px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px 0 10px;
+    box-sizing: border-box;
+}
+header .logo img{
+    height: 40px; 
+    margin-left: 30px;
+}
+header ul{
+    width: 120px;
+    height: 24px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+}
+header ul li a{
+    display: block;
+    width: 23px;
+    height: 23px;
+}
+header .iconfont{
+    font-size: 23px;
+    color: #000;
+}
+
+
+
+/* 内容 */
+.con{
+    width: 100%;
+    padding: 60px 0 100px 0;
+    background-image: url(../images/bg.webp);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+/* 左边 */
+.con-l{
+    box-shadow: 0 0 30px 0 #cfcfd0;
+    padding: 30px 35px;
+    box-sizing: border-box;
+    max-height: 620px;
+    width: 690px;
+    background-color: #fff;
+    color: #636363;
+    float: left;
+    overflow-y: auto;
+}
+.con-l ul{
+    display: flex;
+    justify-content: space-between;
+    overflow-x: hidden;
+}
+.con-l ul li{
+    /* width: 33.33%; */
+    /* height: 35px; */
+    text-align: center;
+    line-height: 18px;
+}
+.con-l ul li a{
+    display: inline-block;
+    width: 210px;
+    height: 35px;
+    box-sizing: border-box;
+    padding-bottom: 18px;
+    font-size: 18px;
+    color: #636363;
+    border-bottom: 1px solid #d9d9d9;
+}
+.con-l ul li a.active{
+    font-weight: bold;
+    color: #000;
+    border-bottom: 2px solid #000;
+}
+.con-l>h2{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 40px;
+    background-color: #000;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    padding: 10px 14px;
+    margin: 30px 0 20px 0;
+    font-weight: normal;
+}
+.con-l form{
+    width: 100%;
+}
+.con-l form input[type='checkbox']{
+    width: 16px;
+    height: 16px;
+}
+.table{
+    width: 100%;
+}
+/* 购物车为空-----开始 */
+.sub{
+    height: 300px;
+    text-align: center;
+}
+.sub h2{
+    font-size: 24px;
+    padding-bottom: 40px;
+}
+.sub p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+}
+.sub p a{
+    font-size: 18px;
+    color: #000;
+}
+/* 购物车为空-----结束 */
+tr{
+    display: block;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1px solid #c0c0c0;
+}
+.table tr:nth-child(1)~tr td{
+    padding: 10px;
+    overflow: hidden;
+    width: 20px;
+    height: 20px;
+}
+.table tr:nth-child(1) td:nth-child(2){
+    padding-bottom: 4px;
+    color: black;
+}
+/* 图片 */
+.table .tu img{
+    width: 92px;
+    height: 100px;
+    margin: 0 20px;
+}
+/* 描述文本 */
+.table .text{
+    width: 180px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.table .text h3{
+    padding-top: 0;
+    font-size: 12px;
+    color: #000;
+    margin: 0 0 8px;
+}
+.table .text p{
+    margin: 0 0 8px;
+}
+.table .money{
+    /* padding-left: 40px !important; */
+    padding: 0 20px !important;
+}
+/* 数量 按钮 */
+.table .number{
+    width: 125px;
+    height: 100px;
+    text-align: center;
+    color: #000;
+    font-size: 14px;
+}
+.table .number input{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #808080;
+    box-sizing: border-box;
+    background-color: #f6f6f6;
+    color: #000;
+    border-radius: 50%;
+    font-size: 16px;
+    margin: 0 6px;
+}
+.table .number input:hover{
+    cursor: pointer;
+}
+/* 删除 */
+.cha:hover{
+    cursor: pointer;
+}
+/* 刻字信息 */
+.table .msg{
+    float: left;
+    width: 110px;
+    height: 30px;
+    text-align: center;
+    font-size: 13px;
+    border-radius: 6px;
+    line-height: 26px;
+    background-color: #000;
+    color: #fff;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    margin-left: 160px;
+    /* margin-top: 10px; */
+}
+.table .last td{
+    padding: 5px !important;
+    float: right;
+    margin-right: 50px;
+}
+.con-l>h3{
+    font-size: 12px;
+    font-weight: normal;
+    border-bottom: 1px solid #c0c0c0;
+    padding: 10px 0;
+    color: #000;
+    margin-left: 0;
+}
+/* tr.qingkong [name="_clear"]{
+    float: right !important;
+    background-color: #000 !important;
+    color: #fff;
+    height: 30px;
+    padding: 0 10px;
+    border-radius: 15px;
+    font-size: 12px;
+} */
+
+/* 右边  */
+.con-r{
+    width: 280px;
+    box-shadow: 0 0 30px 0 #cfcfd0;
+    float: left;
+    background-color: #fff;
+    margin-left: 10px;
+    box-sizing: border-box;
+}
+/* 上 */
+.r-top{
+    width: 280px;
+    box-shadow: 0 0 30px 0 #cfcfd0;
+    margin-bottom: 10px;
+    padding: 30px 22px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+.r-top h2{
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 20px;
+    color: #000;
+}
+.r-top ul h3{
+    font-weight: normal;
+    color: #636363;
+    font-size: 14px;
+}
+.r-top ul span{
+    color: #000;
+    padding-right: 12px;
+}
+.r-top ul li{
+    line-height: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.r-top ul li a{
+    text-decoration: underline;
+}
+.r-top ul:nth-of-type(2){
+    padding-top: 30px;
+}
+/* 下 */
+.r-bom {
+    width: 280px;
+    box-sizing: border-box;
+    background-color: #fff;
+    box-shadow: 0 0 30px 0 #cfcfd0;
+    padding: 30px 22px;
+}
+.r-bom h2{
+    font-size: 14px;
+    font-weight: normal;
+    color: #000;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #d9d9d9;
+}
+.r-bom p{
+    margin-bottom: 4px;
+    color: #000;
+    font-weight: bold;
+    margin-top: 18px;
+    font-size: 12px;
+}
+
+
+
+/* 页脚 */
+.copy ul{
+    /* width: 1440px; */
+	display: flex;
+	justify-content: center;
+    margin: 0 auto;
+    border-top: 1px solid #e0e0e0;
+	margin-bottom: 40px;
+}
+.copy ul>li{
+	width: 475px;
+	height: 350px;
+}
+.copy select{
+    width: 325px;
+	height: 50px;
+	margin: 20px auto;
+	display: block;
+	border-radius: 25px;
+	padding-left: 30px;
+}
+.copy ul li:nth-child(1){
+	text-align: center;
+}
+.copy ul li:nth-child(1) h3{
+	font-size: 15px;
+	font-weight: 400;
+	padding-top: 110px;
+}
+.copy ul li:nth-child(2) ol{
+	padding-top: 20px;
+}
+.copy ul li:nth-child(2) ol>li{
+	text-align: center;
+	color: #000;
+	font-size: 15px;
+	text-decoration: underline;
+	line-height: 36px;
+}
+.copy ul li:nth-child(2) ol>li:hover{
+	font-weight: 700;
+}
+.copy ul li dl{
+	width: 240px;
+	margin: 20px auto;
+}
+.copy ul li dl dt{
+	float: left;
+}
+.copy ul li dl dd{
+	color: #757575;
+}
+.copy ul li dl dd:hover{
+	font-weight: 700;
+}
+.copy ul li:nth-child(3) h3{
+	font-size: 15px;
+	color: #000;
+	font-weight: 400;
+	text-align: center;
+	padding-top: 120px;
+}
+.copy ul li:nth-child(3) ol{
+	width: 250px;
+	height: 80px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.copy ul li:nth-child(3) ol li{
+	width: 50px;
+	height: 50px;
+	border: 1px solid #757575;
+	border-radius: 50%;
+	font-size: 30px;
+	text-align: center;
+	line-height: 50px;
+}
+.copy ul li:nth-child(3) ol li:hover{
+    cursor: pointer;
+}

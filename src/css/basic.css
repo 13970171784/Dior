@@ -1,0 +1,32 @@
+p,input,form,select,h1,h2,h3,h4,h5,h6,dl,dt,dd,div,ul,ol,li,b,span,strong,i,em,u,body{
+	padding: 0;
+	margin: 0;
+	outline: none;
+}
+body{
+	font-size: 12px;
+	font-family: "微软雅黑";
+}
+img{
+	vertical-align: top;
+}
+input{
+	outline: none;
+}
+a{
+	text-decoration: none;
+	color: #333333;
+}
+ul li,ol,li{
+	list-style: none;
+}
+.clear::after{
+	content: "";
+	overflow: hidden;
+	display: block;
+	height: 0;
+	font-size: 0;
+	clear: both;
+	visibility: hidden;
+}
+

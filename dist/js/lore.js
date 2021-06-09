@@ -1,0 +1,1 @@
+"use strict";$(".person").click(function(){$(".lore").css("display","block")}),$(".close button").click(function(){$(".lore").css("display","none")});

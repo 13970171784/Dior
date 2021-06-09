@@ -1,0 +1,262 @@
+body{
+    overflow-x: hidden;
+}
+.box{
+    width: 100%;
+	/* overflow: hidden; */
+}
+main{
+    width: 980px;
+    margin: 0 auto;
+}
+header{
+    border-bottom: 1px solid #e5e5e5;
+}
+header main{
+    height: 115px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px 0 40px;
+    box-sizing: border-box;
+}
+header .logo img{
+    height: 40px; 
+    margin-left: 30px;
+}
+header ul{
+    width: 120px;
+    height: 24px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+}
+header ul li a{
+    display: block;
+    width: 23px;
+    height: 23px;
+}
+/* header main a:nth-child(1){
+    font-weight: bold;
+} */
+header .iconfont{
+    font-size: 23px;
+    color: #000;
+}
+
+/* 内容 */
+.con{
+    width: 720px;
+    padding: 30px;
+	padding-bottom: 0;
+    border: 1px solid #d9d9d9;
+    box-sizing: border-box;
+    margin:  auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.con h1{
+    margin: 0 0 15px;
+    padding: 0 0 3px;
+    color: #636363;
+}
+.con>p{
+    color: #a0a0a0;
+}
+.con>p:nth-child(2){
+    margin: 10px 0;
+}
+.con form{
+	position: relative;
+}
+.con form tr{
+    float: left;
+	margin-top: 8px;
+}
+.con table tr:nth-child(2)~tr{
+	margin-top: 16px;
+}
+.con table tr:nth-child(4)~tr{
+	clear: both;
+}
+.con form tr td:nth-child(1){
+	width: 95px;
+	height: 30px;
+	color: #636363;
+}
+/* .con form tr:nth-child(4){
+	width: 265px;
+} */
+.con form tr input{
+	width: 170px;
+	height: 30px;
+	background-color: #ebebeb;
+	border: none;
+	border-radius: 6px;
+	padding: 0 8px;
+	box-sizing: border-box;
+}
+::-webkit-input-placeholder{
+	font-size: 12px;
+}
+.con form select{
+	position: absolute;
+	width: 170px;
+	height: 30px;
+	right: 60px;
+	top: 64px;
+	background-color: #ebebeb;
+	border: none;
+	border-radius: 6px;
+	padding: 0 8px;
+	color: #636363;
+	appearance: none;
+}
+/* .con form tr:nth-child(6) input{
+	width: 144px;
+	height: 30px;
+	color: #636363;
+} */
+.con form .rightTr{
+	margin-right: 50px;
+}
+.con .five input{
+	width: 100px;
+}
+.con .five img{
+	width: 100px;
+	height: 30px;
+	margin-left: 5px;
+}
+/* .con .six input{
+	width: 154px;
+}
+.con .six a{
+	display: block;
+	width: 45px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 15px;
+	color: #fff;
+	background-color: #000;
+} */
+/* .con .seven input{
+	width: 205px;
+} */
+.con .eight input{
+	width: 16px;
+	height: 16px;
+	float: left;	
+}
+.con .eight{
+	color: #969595;
+}
+.con .eight td:nth-child(1){
+	width: 26px;
+}
+.con .eight a{
+	text-decoration: underline;
+}
+.con .nine{
+	height: 16px;
+} 
+.con .nine td a{
+	width: 54px;
+	height: 28px;
+	display: block;
+	background-color: #000;
+	color: #fff;
+	float: right;
+	border-radius: 30px;
+	position: absolute;
+	right: 20px;
+	bottom: 6px;
+	text-align: center;
+	line-height: 28px;
+}
+
+
+/* 页脚 */
+.copy ul{
+    width: 1440px;
+	display: flex;
+	justify-content: center;
+    margin: 0 auto;
+	margin-bottom: 40px;
+    border-top: 1px solid #e0e0e0;
+}
+.copy ul>li{
+	width: 475px;
+	height: 350px;
+}
+.copy select{
+    width: 325px;
+	height: 50px;
+	margin: 20px auto;
+	display: block;
+	border-radius: 25px;
+	padding-left: 30px;
+}
+.copy ul li:nth-child(1){
+	text-align: center;
+}
+.copy ul li:nth-child(1) h3{
+	font-size: 15px;
+	font-weight: 400;
+	padding-top: 110px;
+}
+.copy ul li:nth-child(2) ol{
+	padding-top: 20px;
+}
+.copy ul li:nth-child(2) ol>li{
+	text-align: center;
+	color: #000;
+	font-size: 15px;
+	text-decoration: underline;
+	line-height: 36px;
+}
+.copy ul li:nth-child(2) ol>li:hover{
+	font-weight: 700;
+}
+.copy ul li dl{
+	width: 240px;
+	margin: 20px auto;
+}
+.copy ul li dl dt{
+	float: left;
+}
+.copy ul li dl dd{
+	color: #757575;
+}
+.copy ul li dl dd:hover{
+	font-weight: 700;
+}
+.copy ul li:nth-child(3) h3{
+	font-size: 15px;
+	color: #000;
+	font-weight: 400;
+	text-align: center;
+	padding-top: 120px;
+}
+.copy ul li:nth-child(3) ol{
+	width: 250px;
+	height: 80px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.copy ul li:nth-child(3) ol li{
+	width: 50px;
+	height: 50px;
+	border: 1px solid #757575;
+	border-radius: 50%;
+	font-size: 30px;
+	text-align: center;
+	line-height: 50px;
+}
+.copy ul li:nth-child(3) ol li:hover{
+    cursor: pointer;
+}

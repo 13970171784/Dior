@@ -1,0 +1,1 @@
+"use strict";function jsonp(e,t,c,n){t.cb=c,window.cb=n;var d=document.createElement("script"),r="?",i="";for(var o in t)r+=i+o+"="+t[o],i="&";e+=r,d.setAttribute("src",e),document.head.appendChild(d),document.head.removeChild(d)}
